@@ -1,0 +1,139 @@
+h1{
+    text-align: center; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    font-size: 60px;
+}
+
+.program {
+    margin: 30%;
+    color:blueviolet;
+
+}
+
+#style {
+
+    word-break: break-all;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.jumbotron{
+    background-color:aliceblue;
+    color:crimson;
+    box-shadow: 2px 5px 10px #555;
+    padding: 5%;
+    margin:5%
+}
+
+.div1{
+    border: 1px solid #ccc;
+    padding: 2%;
+    margin: 2%;
+    background-color: white;
+}
+
+.topnav {
+    background-color:cornflowerblue;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color:azure;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+#gallerywrapper {
+    width:640px;
+    height:450px;
+    margin:0 auto;
+    position:relative;
+    font-family:verdana, arial, sans-serif;
+} 
+
+#gallerywrapper #gallery {
+    position:absolute;
+    left:0;
+    top:0;
+    height:450px;
+    width:640px;
+    overflow:hidden;
+    text-align:center;
+} 
+
+#gallerywrapper #gallery div {
+    width:640px; height:900px; 
+    padding-top:10px; 
+    position:relative;
+} 
+
+#gallerywrapper #gallery div img {
+    clear:both; 
+    display:block; 
+    margin:0 auto; 
+    border:0;
+} 
+
+#gallerywrapper #gallery div h3 {
+    padding:10px 0 0 0; 
+    margin:0; 
+    font-size:18px;
+} 
+
+#gallerywrapper #gallery div p {
+    padding:5px 0; 
+    margin:0; 
+    font-size:12px; 
+    line-height:18px;
+} 
+
+#gallery .previous{ 
+    display:inline;
+    float:left;
+    margin-left:80px;
+    text-decoration:none;
+} 
+
+#gallery .previous a{ 
+    display:inline;
+    float:left;
+    margin-left:80px;
+    text-decoration:none;
+} 
+
+#gallery .previous a:hover{ 
+    box-shadow: #555;
+    text-shadow: #555;
+    text-decoration:underline;
+} 
+
+#gallery .next{ 
+    display:inline;
+    float:right;
+    margin-right:80px;
+    text-decoration:none;
+}
+
+#gallery .next a:hover{ 
+    text-shadow: #555;
+    text-decoration:underline;
+}
+
+#mask1 {
+    -webkit-mask-image: url(seville.png);
+    mask-image: url(seville.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;    
+}
